@@ -24,13 +24,13 @@ public class CalculatorTest{
     @Test(priority = 1)
     public void subTwoPositiveNumbers(){
         Calculator calculator = new Calculator();
-        Assert.assertEquals(-1.0, calculator.sum(1.0, 2.0));
+        Assert.assertEquals(-1.0, calculator.subtraction(1.0, 2.0));
     }
 
     @Test(priority = 4)
     public void subDifferentSignNumbers(){
         Calculator calculator = new Calculator();
-        Assert.assertEquals(-3.0, calculator.sum(-1.0, 2.0));
+        Assert.assertEquals(-3.0, calculator.subtraction(-1.0, 2.0));
         System.out.println("Sub functionality is working...");
     }
 

@@ -12,11 +12,11 @@ public class Calculator {
         return a * b; // multi
     }
     public double division(double a, double b){
-        try{
+        if (b != 0){
+
             return a / b; // Div
         }
-        catch (ArithmeticException e){
-            System.out.println(e.getMessage());
+        else{
             return 0; //Flag
         }
     }
