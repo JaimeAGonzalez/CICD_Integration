@@ -25,4 +25,9 @@
 
     </dependencies>
 
+    <build>
+        <finalName>cicd-integration</finalName>
+        <!-- Other build configuration elements -->
+    </build>
+
 </project>
